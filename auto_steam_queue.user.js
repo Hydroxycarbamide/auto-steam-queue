@@ -2,9 +2,9 @@
 // @name            Auto Steam Discovery Queue
 // @namespace       https://steamcommunity.com/id/zetx/
 // @description     Go to next game queued as soon as page is done loading.
-// @include         http(s)://store.steampowered.com/*app/*
-// @include         http(s)://store.steampowered.com/*explore*
-// @include         http(s)://store.steampowered.com/*agecheck/app/*
+// @include         https://store.steampowered.com/*app/*
+// @include         https://store.steampowered.com/*explore*
+// @include         https://store.steampowered.com/*agecheck/app/*
 // @version         4.04
 // @run-at          document-end
 // @grant           none
