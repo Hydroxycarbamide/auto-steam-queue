@@ -155,7 +155,7 @@ function auto_steam_queue() {
       $J.post( "/app/7", {
         sessionid: g_sessionID,
         appid_to_clear_from_queue: unavailable_app
-      } ).done( ( data ) => {
+      } ).done( () => {
         window.location = "https://store.steampowered.com/explore/next";
         $J( ".error" ).html( `${$J( ".error" ).html()}<br />(Removing from queue)` );
       } ).fail( () => {
